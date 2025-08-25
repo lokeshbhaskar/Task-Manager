@@ -6,7 +6,7 @@ import { SIDE_MENU_DATA, SIDE_MENU_USER_DATA } from "../../utils/data";
 const SideMenu = ({ activeMenu }) => {
   const { user, clearUser } = useContext(UserContext);
   const [sideMenuData, setSideMenuData] = useState([]);
-  
+
   const navigate = useNavigate();
   const handleClick = (item) => {
     // console.log(item.path)
